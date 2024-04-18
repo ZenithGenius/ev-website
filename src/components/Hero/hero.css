@@ -1,0 +1,60 @@
+.hero {
+    padding-top: 6%;
+    display: flex;
+    flex-direction: row; /* Stack the text vertically */
+    color: #BFBFBF;
+    font-style: normal;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero .left {
+    flex: 1;
+    color: white;
+    margin-top: 4%;
+    padding-top: -50%;
+}
+
+.hero .left h1 {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero .left span {
+    font-size: 23px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.hero .left, .hero .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hero .right {
+    flex: 1;
+    position: relative;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 350px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10%;
+    margin-top: 19%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.hero .right h1 {
+    color: rgb(23, 23, 44);
+}
+
+.hero .right .announcement h2 {
+    font-size: 1.4em;
+}
+
+.hero .right .announcement p {
+    font-size: 1em;
+}

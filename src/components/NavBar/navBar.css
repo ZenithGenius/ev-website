@@ -1,0 +1,55 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #262626;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-logo{
+    background: url("../../assets/logo4.jpg") no-repeat;
+    background-size: contain; 
+    background-position: center;
+    height: 50px;
+    width: 25%;  
+
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 19px;
+    font-weight: bold;
+    gap: 90px;
+}
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    background: #fff;
+    color: #262626;
+}
+
+.nav-logo2{
+    font-family: Outfit;
+    margin-right: 10%;
+}
+
+.nav-menu li:hover {
+    color: #74b1f1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Makes the button grow slightly */
+}
+
+button:hover {
+    background-color: rgba(219, 166, 206, 0.897);
+    color: #FFF;
+    font-size: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); /* Makes the button grow slightly */
+}

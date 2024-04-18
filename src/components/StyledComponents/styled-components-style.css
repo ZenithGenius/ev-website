@@ -1,0 +1,59 @@
+.PageContainer {
+  position: relative; /* Required for absolute positioning of pseudo-element */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background-color: #000000; 
+  background-image: url('../../assets/r2_visualmode_disass.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.PageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 37, 230, 0.6); /* Adjust the opacity and color as needed */
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .PageContainer {
+    padding: 10px;
+  }
+}
+
+.Title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5em;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .Title {
+    font-size: 1.5rem;
+  }
+}
+
+.Subtitle {
+  font-size: 2.0rem;
+  line-height: 1.4;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .Subtitle {
+    font-size: 1rem;
+  }
+}
