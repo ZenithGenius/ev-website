@@ -15,8 +15,9 @@ export const Hero = () => {
             <h2>The competition is on ! Be the ultimate winner.</h2>
             <p>In the town of Yaounde, Palais de Congrés</p>
             <div>
-              <h1>Countdown Timer</h1>
-              <CountdownTimer/>
+              <button className='registerButtonBodyPage'>Register</button>
+              {/* <h1>Countdown Timer</h1> */}
+              {/* <CountdownTimer/> */}
             </div>
         </div>
       </div>

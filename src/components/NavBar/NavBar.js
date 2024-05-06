@@ -12,9 +12,9 @@ export const NavBar = () => {
                 <b>Register</b>
             </button>
         </ul>
-        <div className='nav-logo2'>
+        {/* <div className='nav-logo2'>
           <b>New logo</b>
-        </div>
+        </div> */}
     </div>
   )
 }

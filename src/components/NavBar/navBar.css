@@ -30,9 +30,27 @@
 
 .nav-contact{
     border-radius: 50px;
-    padding: 10px 38px;
-    background: #fff;
+    padding: 10px 32px;
+    background-color: #fff;
     color: #262626;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    font-size: 15px;
+    outline: none;
+    position: relative;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-contact:hover {
+    background-color: rgba(219, 166, 206, 0.897);
+    color: #FFF;
+    font-size: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); 
 }
 
 .nav-logo2{
@@ -43,13 +61,7 @@
 .nav-menu li:hover {
     color: #74b1f1;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05); /* Makes the button grow slightly */
+    transform: scale(1.05);
 }
 
-button:hover {
-    background-color: rgba(219, 166, 206, 0.897);
-    color: #FFF;
-    font-size: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05); /* Makes the button grow slightly */
-}
+

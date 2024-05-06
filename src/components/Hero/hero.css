@@ -1,3 +1,4 @@
+
 .hero {
     padding-top: 6%;
     display: flex;
@@ -5,14 +6,18 @@
     color: #BFBFBF;
     font-style: normal;
     justify-content: space-between;
-    align-items: flex-start;
+    margin-bottom: 10%;
 }
 
 .hero .left {
     flex: 1;
     color: white;
-    margin-top: 4%;
-    padding-top: -50%;
+    margin: 0 auto;
+    height: 350px;
+    border-radius: 10%;
+    margin-top: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .hero .left h1 {
@@ -36,25 +41,47 @@
 
 .hero .right {
     flex: 1;
-    position: relative;
-    left: 20%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
     height: 350px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 10%;
-    margin-top: 19%;
+    margin-top: 5%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
 .hero .right h1 {
-    color: rgb(23, 23, 44);
+    color: goldenrod;
+    font-size: 2.2em;
 }
 
 .hero .right .announcement h2 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .hero .right .announcement p {
-    font-size: 1em;
+    font-size: 1.1em;
 }
+
+.left, .right {
+    flex-basis: 50%;
+  }
+
+.registerButtonBodyPage {
+    padding: 10px 32px;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    border-radius: 50px;
+    /* cursor: pointer; */
+    /* margin: 4px 2px; */
+    transition: all 0.5s ease;
+  }
+
+.registerButtonBodyPage::hover{
+    background-color: rgba(219, 166, 206, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); 
+    font-size: 60px;
+}
+
